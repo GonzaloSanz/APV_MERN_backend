@@ -1,0 +1,34 @@
+{
+  "name": "veterinaria-mern",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Proyecto FullStack JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "MERN Stack",
+    "MongoDB",
+    "Express",
+    "React",
+    "Node js",
+    "Tailwind CSS",
+    "Vite"
+  ],
+  "author": "Gonzalo Sanz",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
