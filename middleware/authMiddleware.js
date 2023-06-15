@@ -4,7 +4,7 @@ import Veterinario from "../models/Veterinario.js";
 const checkAuth = async (req, res, next) => {
     let token;
 
-    // Comprobar si se está enviando un token en las cabeceras y si empeiza por Bearer
+    // Comprobar si se está enviando un token en las cabeceras y si empieza por Bearer
     if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
         try {
             // Obtener el token y se descodificarlo
